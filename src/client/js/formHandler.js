@@ -6,9 +6,11 @@ function handleSubmit(event) {
     Client.checkForName(formText)
 
     console.log("::: Form Submitted :::")
-    Client.postData('http://localhost:8081/getSentiment', {text: formText})
+    Client.postData('http://localhost:8081/getAPI', {text: formText})
     .then(function(data) {
-        document.getElementById('results').innerHTML = data.subjectivity
+        document.getElementById('Text').innerHTML = "Text: " + formText
+        document.getElementById('results').innerHTML = "Subjectivity: " + data.subjectivity
+
     })
 }
 
