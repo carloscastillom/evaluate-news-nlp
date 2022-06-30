@@ -8,8 +8,9 @@ function handleSubmit(event) {
     console.log("::: Form Submitted :::")
     Client.postData('http://localhost:8081/getAPI', {text: formText})
     .then(function(data) {
-        document.getElementById('Text').innerHTML = "Text: " + formText
+        document.getElementById('text').innerHTML = "Text: " + formText
         document.getElementById('results').innerHTML = "Subjectivity: " + data.subjectivity
+        document.getElementById('polarity').innerHTML = "Polarity: " + data.score_tag
 
     })
 }

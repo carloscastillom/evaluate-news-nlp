@@ -2,6 +2,9 @@ var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 
 
 const bodyParser = require('body-parser');
@@ -33,11 +36,9 @@ app.listen(8081, function () {
 
 // make API request
 app.post('/getAPI', async function(req, res) {
-    //const text = req.body.text;
-    //const url = `https://api.meaningcloud.com/sentiment-2.1?key=${process.env.API_KEY}
-    //&of=json&txt=${text}&model=general&lang=en`
+    const text = req.body.text;
 
-    const url = "https://api.meaningcloud.com/sentiment-2.1?key=de6c18375a184fbfbd8fd8054bb2c95d&of=json&txt=Main%20dishes%20were%20quite%20good,%20but%20desserts%20were%20too%20sweet%20for%20me&model=general&lang=en"
+    const url = "https://api.meaningcloud.com/sentiment-2.1?key="+ process.env.API_KEY + "&of=json&txt=" + text + "&model=general&lang=en"
 
     //console.log(`Your process.env.API_Key is ${ process.env.API_KEY}`);
     console.log(`This is the url: ${url}`);
