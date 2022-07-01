@@ -1,3 +1,16 @@
+
+You had to create/update the README file here. This file assists us in defining documentation, which is an important aspect of the projects. You can explain the key features and functionality of the project in it according to your understanding.
+However, you have not updated the file as required. Please revise the Readme File to reflect your current understanding of the project. As it stands, it appears to be the default readme that comes with the starter code template.
+You may add the details about the following topics:
+Dependencies
+References that you have used
+Brief about important files in your project
+How to run the project in development mode
+How to run the project in production mode.
+You can check out the Udacity Free Course for Writing READMEs to learn about how to write README or else you can check out this link.
+
+
+
 # Project Instructions
 
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!
