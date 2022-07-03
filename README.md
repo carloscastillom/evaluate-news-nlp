@@ -10,7 +10,11 @@ How to run the project in production mode.
 You can check out the Udacity Free Course for Writing READMEs to learn about how to write README or else you can check out this link.
 
 
-The goal of this project is to give you practice with:
+NLP evaluate news.
+
+With the use of tha API meaning cloud the website takes an URL as an input in the text field, process it and gives out the subjectivity and a confidence score of the evaluation. The API have plenty of options to pick for evaluating the articles if you find one useful please dont hesitate to do a pull request and make the proper changes.
+
+Practice with:
 - Setting up Webpack
 - Sass styles
 - Webpack Loaders and Plugins
