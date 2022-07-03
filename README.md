@@ -1,16 +1,5 @@
 
-You had to create/update the README file here. This file assists us in defining documentation, which is an important aspect of the projects. You can explain the key features and functionality of the project in it according to your understanding.
-However, you have not updated the file as required. Please revise the Readme File to reflect your current understanding of the project. As it stands, it appears to be the default readme that comes with the starter code template.
-You may add the details about the following topics:
-Dependencies
-References that you have used
-Brief about important files in your project
-How to run the project in development mode
-How to run the project in production mode.
-You can check out the Udacity Free Course for Writing READMEs to learn about how to write README or else you can check out this link.
-
-
-NLP evaluate news.
+## NLP evaluate news.
 
 With the use of tha API meaning cloud the website takes an URL as an input in the text field, process it and gives out the subjectivity and a confidence score of the evaluation. The API have plenty of options to pick for evaluating the articles if you find one useful please dont hesitate to do a pull request and make the proper changes.
 
