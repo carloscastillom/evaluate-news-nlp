@@ -1,6 +1,12 @@
 
 ## NLP evaluate news.
 
+1. Clone the reposotorie
+2. CD new folder 'evaluate-news-nlp'
+3. make sure you have node install in your computer.
+4. npm -i will install all the dependencies
+5
+
 With the use of tha API meaning cloud the website takes an URL as an input in the text field, process it and gives out the subjectivity and a confidence score of the evaluation. The API have plenty of options to pick for evaluating the articles if you find one useful please dont hesitate to do a pull request and make the proper changes.
 
 Practice with:
