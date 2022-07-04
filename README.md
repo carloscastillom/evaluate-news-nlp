@@ -22,13 +22,8 @@ if not, please donwload them:
 - Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - NodeJS: https://nodejs.org/en/download/
 
-
-1. clone the github Repository  
-
-3. in a new git bash  `npm install`
-4. set up your Meaning cloud API.
-5. Run in development and production mode.
-
+to clone please in the command line
+`git clone https://github.com/carloscastillom/evaluate-news-nlp.git`
 
 Remember that once you clone, you will still need to install everything:
 
@@ -87,17 +82,10 @@ var textapi = new aylien({
 });
 ```
 
-### Step 5: Using the API
+### Step 5: Run in development and production mode.
 
 We're ready to go! The API has a lot of different endpoints you can take a look at [here](https://docs.aylien.com/textapi/endpoints/#api-endpoints). And you can see how using the SDK simplifies the requests we need to make. 
 
 I won't provide further examples here, as it's up to you to create the various requests and make sure your server is set up appropriately.
 
 
-## Deploying
-
-A great step to take with your finished project would be to deploy it! Unfortunately its a bit out of scope for me to explain too much about how to do that here, but checkout [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com/) for some really intuitive free hosting options.
-
-
-
-# ToDo Service Workers
