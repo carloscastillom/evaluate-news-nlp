@@ -1,8 +1,12 @@
-# Project Instructions
+# Evaluate news NLP
 
-This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!
+Academic project from Udacity. This projects uses NLP API called meaning cloud to evaluate URL passed as Input. it receives a URL, validates it and gives as an output the subjectivity of the web article. you are allowed to modify the code as you wish. please make sure you clone it to your own repoistories. 
 
-The goal of this project is to give you practice with:
+> Natural language processing (NLP) is a subfield of computer science, information engineering, and artificial intelligence
+concerned with the interactions between computers and human (natural) languages, in particular how to program computers to
+process and analyze large amounts of natural language data.
+
+practice with:
 - Setting up Webpack
 - Sass styles
 - Webpack Loaders and Plugins
@@ -10,15 +14,20 @@ The goal of this project is to give you practice with:
 - Service workers
 - Using APIs and creating requests to external urls
 
-
-> Natural language processing (NLP) is a subfield of computer science, information engineering, and artificial intelligence
-concerned with the interactions between computers and human (natural) languages, in particular how to program computers to
-process and analyze large amounts of natural language data.
-
-
 ## Getting started
 
-It would probably be good to first get your basic project setup and functioning. Follow the steps from the course up to Lesson 4 but don't add Service Workers just yet. We won't need the service workers during development and having extra caches floating around just means there's more potential for confusion. So, fork this repo and begin your project setup.
+Make sure you have  git and nodeJS intalled in you computer. if not, please donwload them:
+Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+NodeJS: https://nodejs.org/en/download/
+
+
+1. clone the github Repository  
+
+
+3. in a new git bash  `npm install`
+4. set up your Meaning cloud API.
+5. Run in development and production mode.
+
 
 Remember that once you clone, you will still need to install everything:
 
