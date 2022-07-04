@@ -47,7 +47,7 @@ To avoid some sharing public data in Github we recommed you use enviroment varia
 ![image](https://user-images.githubusercontent.com/65776444/177177986-a120ccaf-e4b1-4591-b0de-6f3519a139a9.png)
 
 
-### Step 3: Run in development and production mode.
+### Step 3: Run in Development and Production mode.
 
 We're almos ready! The project can be runned in two different modes.  In case you want to modify the code as you desire  and make faster changes across the files, please refer to development code. on the other hand if you want to use the current project as it is righ now, use the production environment.
 
