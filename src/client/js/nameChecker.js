@@ -1,16 +1,8 @@
-function checkForName(inputText) {
-    console.log("::: Running checkForName :::", inputText);
-    let names = [
-        "Picard",
-        "Janeway",
-        "Kirk",
-        "Archer",
-        "Georgiou"
-    ]
+const checkForName = function(inputText){
+    console.log("::: Running checkUrl :::", inputText);
 
-    if(names.includes(inputText)) {
-        alert("Welcome, Captain!")
-    }
+    const regEx = /^(ftp|http|https):\/\/[^ "]+$/.test(inputText);
+    return regEx;
 }
 
 export { checkForName }
